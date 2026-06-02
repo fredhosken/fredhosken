@@ -11,7 +11,7 @@ Currently: Assistant Professor at Butler University; open to research collaborat
 
 ## Featured Projects
 
-### 🥁 ModernDrummerGPT
+### ModernDrummerGPT
 **A domain-grounded RAG system for querying the discourse of musicians**
 
 Constructed a retrieval-augmented LLM over four decades of *Modern Drummer* magazine — building a system that embodies the norms, terminology, and debates of a specialist discourse community. Unlike general-purpose LLMs, responses synthesize how musicians themselves have defined contested terms like "groove," "pocket," and "feel" as those definitions evolved across 40+ years of publication.
@@ -24,7 +24,7 @@ Constructed a retrieval-augmented LLM over four decades of *Modern Drummer* maga
 
 ---
 
-### 🎙️ AI Stem Separation & MIR: Validity Assessment
+### AI Stem Separation & MIR: Validity Assessment
 **Bayesian evaluation of AI audio separation tools for onset timing analysis**
 
 Empirically assessed whether AI stem separation tools (used widely in Music Information Retrieval research) introduce timing errors large enough to invalidate downstream analyses. Used Dynamic Time Warping to align onset times from original and AI-separated stems, then applied Bayesian inference to quantify the probability that both represent the same underlying events.
@@ -37,7 +37,7 @@ Empirically assessed whether AI stem separation tools (used widely in Music Info
 
 ---
 
-### 📊 Drum Groove Corpora
+### Drum Groove Corpora
 **Open dataset of drum recordings and onset timing data**
 
 International collaboration (Butler, Lucerne University of Applied Sciences and Arts) producing a structured, open-access repository of drum performance data with annotated onset times. Designed for reproducibility and reuse across empirical music research.
@@ -85,4 +85,4 @@ Groove and microtiming · Music perception and cognition · Music Information Re
 
 ---
 
-📧 fhosken@butler.edu &nbsp;|&nbsp; 🎓 [Google Scholar](#) &nbsp;|&nbsp; 💼 [LinkedIn](#)
+📧 hoskenf@hotmail.com &nbsp;|&nbsp; 🎓 [Google Scholar](https://scholar.google.com/citations?user=1BlgvPYAAAAJ&hl=en) &nbsp;|&nbsp; 💼 [LinkedIn](#)
