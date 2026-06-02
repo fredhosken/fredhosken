@@ -81,8 +81,8 @@ Data:           Corpus construction & annotation
 
 ## Research Interests
 
-Groove and microtiming · Music perception and cognition · Music Information Retrieval · Corpus methods · NLP applied to music discourse · Bayesian modeling · Performance analysis · Human–AI interaction in music
+Groove and microtiming &bull; Music perception and cognition &bull; Music Information Retrieval &bull; Corpus methods &bull; NLP applied to music discourse &bull; Bayesian modeling &bull; Performance analysis &bull; Human–AI interaction in music
 
 ---
 
-📧 hoskenf@hotmail.com &nbsp;&bull;&nbsp;  [LinkedIn](https://www.linkedin.com/in/fred-hosken/) &nbsp;&bull;&nbsp; 🎓 [Google Scholar](https://scholar.google.com/citations?user=1BlgvPYAAAAJ&hl=en)
+hoskenf@hotmail.com &nbsp;&bull;&nbsp;  [LinkedIn](https://www.linkedin.com/in/fred-hosken/) &nbsp;&bull;&nbsp; [Google Scholar](https://scholar.google.com/citations?user=1BlgvPYAAAAJ&hl=en)
