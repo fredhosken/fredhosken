@@ -85,4 +85,4 @@ Groove and microtiming · Music perception and cognition · Music Information Re
 
 ---
 
-📧 hoskenf@hotmail.com &nbsp;|&nbsp; 🎓 [Google Scholar](https://scholar.google.com/citations?user=1BlgvPYAAAAJ&hl=en) &nbsp;|&nbsp; 💼 [LinkedIn](#)
+📧 hoskenf@hotmail.com &nbsp;&bull;|&nbsp;  [LinkedIn](https://www.linkedin.com/in/fred-hosken/) &nbsp;&bull;|&nbsp; 🎓 [Google Scholar](https://scholar.google.com/citations?user=1BlgvPYAAAAJ&hl=en)
