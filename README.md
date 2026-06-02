@@ -7,6 +7,8 @@ I study *groove* — the quality in music that makes people move — focusing on
 Previously: Northwestern (PhD, Music Theory & Cognition), Oxford (MSt), King's College London.  
 Currently: Assistant Professor at Butler University; open to research collaborations and industry opportunities.
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 ---
 
 ## Featured Projects
@@ -16,9 +18,10 @@ Currently: Assistant Professor at Butler University; open to research collaborat
 
 Constructed a retrieval-augmented LLM over four decades of *Modern Drummer* magazine — building a system that embodies the norms, terminology, and debates of a specialist discourse community. Unlike general-purpose LLMs, responses synthesize how musicians themselves have defined contested terms like "groove," "pocket," and "feel" as those definitions evolved across 40+ years of publication.
 
-- Domain-specific corpus ingestion and chunking strategy
-- Retrieval pipeline tuned for nuanced, context-dependent musical concepts
-- Demonstrates RAG as a tool for preserving *emic* (insider) knowledge — applicable to any specialist corpus
+- Corpus pipeline: raw archive cleaned via regex and LLM-assisted normalization, then chunked with LlamaIndex Semantic Splitter — preserving argumentative and contextual boundaries rather than splitting on arbitrary character limits
+- Knowledge graph: Qwen-extracted entity and relationship graph over the corpus, enabling queries that traverse conceptual connections across articles, eras, and authors rather than retrieving isolated passages
+- Retrieval: hybrid FAISS vector search + TF-IDF, with BAAI/BGE embeddings tuned to the domain's specialist vocabulary
+- Demonstrates RAG + knowledge graph as infrastructure for preserving emic (insider) knowledge — replicable for any long-running specialist corpus
 
 `RAG` `LLM` `corpus linguistics` `NLP` `music information retrieval`
 
@@ -52,17 +55,22 @@ International collaboration (Butler, Lucerne University of Applied Sciences and 
 ## Methods & Tools
 
 ```
-Statistical:    Bayesian inference (posterior estimation, credible intervals)
-                Frequentist (mixed-effects models, significance testing)
-                Dynamic Time Warping (DTW)
+Languages:      Python · R
 
-NLP / ML:       Retrieval-Augmented Generation (RAG)
-                Corpus linguistics
-                Embedding & vector search
+Statistical:    Bayesian inference    — PyMC  (posterior estimation, credible intervals)
+                Frequentist           — R     (mixed-effects models, significance testing)
+                Series alignment      — FastDTW (onset timing comparison)
 
-Music / Audio:  Music Information Retrieval (MIR)
+NLP / ML:       RAG pipeline          — LlamaIndex Semantic Splitter + Qwen knowledge graph
+                LLMs                  — Qwen · Llama (local/open-source); API calls for
+                                        corpus text cleanup and normalization
+                Embeddings            — BAAI/BGE · BERT
+                Retrieval             — FAISS · TF-IDF · hybrid search
+                Text processing       — regex · custom preprocessing pipelines
+
+Music / Audio:  Feature extraction    — librosa · madmom
                 Onset detection & timing analysis
-                AI stem separation (Demucs, Spleeter, etc.)
+                AI stem separation    — Demucs · Spleeter
 
 Data:           Corpus construction & annotation
                 Open science / reproducible research workflows
